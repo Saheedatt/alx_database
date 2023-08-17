@@ -1,6 +1,3 @@
--- Set the database name
-USE hbtn_0c_0;
-
 -- Create the table second_table if it doesn't exist
 DROP TABLE IF EXISTS second_table;
 CREATE TABLE second_table (
