@@ -1,1 +1,7 @@
-CREATE DATABASE hbtn_0c_0 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- This script uses the CREATE DATABASE IF NOT EXISTS statement to avoid failure if the database already exists
+
+-- Create the database if it doesn't exist
+DROP DATABASE IF EXISTS hbtn_0c_0;
+CREATE DATABASE hbtn_0c_0;
+
+-- Script executed successfully
