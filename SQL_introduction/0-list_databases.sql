@@ -1,3 +1,4 @@
---Show a list of available database
+-- Script to List All Databases in MySQL Server
 
-SHOW databases;
+-- Connect to the MySQL server
+SHOW DATABASES;
